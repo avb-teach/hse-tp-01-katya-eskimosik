@@ -6,6 +6,8 @@ fi
 input_dir="$1"
 output_dir="$2"
 
+
+
 if [ ! -d "$input_dir" ]; then
     echo "Ошибка: Входная директория '$input_dir' не существует."
     exit 1
