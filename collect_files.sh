@@ -1,3 +1,5 @@
+#!/bin/bash
+
 python3 - <<EOF
 import os
 import shutil
