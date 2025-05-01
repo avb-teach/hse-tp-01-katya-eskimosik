@@ -31,10 +31,10 @@ for root, dirs, files in os.walk(in_dir):
 
         new_file_name = file
 
-         if new_file_name in file_count:
+        if new_file_name in file_count:
              file_count[new_file_name] += 1
              new_file_name = f"{name}{file_count[new_file_name]}{per}"
-         else:
+        else:
              file_count[new_file_name] = 1
 
         shutil.copy(file_path, out_dir)
